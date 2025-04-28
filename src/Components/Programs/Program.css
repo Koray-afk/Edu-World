@@ -1,0 +1,57 @@
+.Programs{
+   width: 90%; 
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin: 80px auto;
+   gap: 20px;
+}
+.Program img{
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+    gap: 20px;
+}
+.Program{
+    flex-basis: 30%;
+    position: relative
+}
+.content{
+    position:absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    cursor: pointer;
+    background: rgba(0, 30, 140, 0.3);
+    opacity: 0;
+    padding-top: 80%;
+    transition: 0.3;
+    border-radius: 10px;
+
+}
+.content img{
+    width: 60px;
+    margin-bottom: 10px;
+}
+.Program:hover .content{
+    opacity: 1;
+    padding-top:0;
+}
+
+@media (max-width:650px) {
+    .Programs{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .Program{
+        flex-basis:  100%;
+        margin: 20px;
+    }
+}

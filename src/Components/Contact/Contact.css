@@ -1,0 +1,99 @@
+  .contact {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 80px auto;
+    max-width: 85%;
+    padding: 40px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-left {
+    max-width: 45%;
+  }
+  
+  .contact-left h3 {
+    color: rgb(49, 5, 115);
+    font-weight: 600;
+    font-size: 36px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .contact-left p {
+    max-width: 450px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    font-size: 17px;
+    color: #444;
+  }
+  
+  .contact-left li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+    color: #333;
+    font-size: 15px;
+  }
+  
+  .contact-left li img {
+    width: 22px;
+    margin-right: 18px;
+  }
+  
+  .contact-right form input,
+  .contact-right form textarea {
+    display: block;
+    width: 32vw;
+    background-color: #ebecfe;
+    padding: 10px 14px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    outline: none;
+    margin: 8px 0 15px;
+    font-size: 15px;
+    transition: 0.3s ease;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.2;
+    resize: none;
+    box-sizing: border-box;
+  }
+  
+  .contact-right form input:focus,
+  .contact-right form textarea:focus {
+    border-color: #311073;
+    box-shadow: 0 0 4px rgba(49, 16, 115, 0.2);
+  }
+  
+  .contact-right span {
+    display: block;
+    margin: 18px 0;
+    color: #28a745;
+    font-weight: 500;
+  }
+  
+  .bkl {
+    background-color: rgb(27, 24, 96);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .bkl:hover {
+    background-color: rgb(49, 45, 136);
+  }
+
+
+@media (max-width:700px) {
+   .contact{
+    display: block ;
+   }
+}
