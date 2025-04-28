@@ -1,6 +1,6 @@
 import React from 'react'
 import './Video.css'
-import video from "../../assets/college-video.mp4"
+import video from "../../assets/College-video.mp4"
 
 function Video({playvideo,setPlayvideo}) {
   return (
